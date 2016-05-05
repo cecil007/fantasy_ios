@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartPage_ViewController">
+            <connections>
+                <outlet property="BgImage" destination="vuE-Ac-yZC" id="eTG-Mi-xmJ"/>
+                <outlet property="EmailBtn" destination="MMq-Bg-9Hk" id="cYc-HQ-WHb"/>
+                <outlet property="LoginBtn" destination="nDN-n7-6rE" id="Szi-Po-Pzo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vuE-Ac-yZC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDN-n7-6rE">
+                    <rect key="frame" x="60" y="530" width="255" height="44"/>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.38039215686274508" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="uOk-Lc-xoL"/>
+                    </constraints>
+                    <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="LoginClick:" destination="-1" eventType="touchUpInside" id="rxX-yW-Oyg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMq-Bg-9Hk">
+                    <rect key="frame" x="60" y="470" width="255" height="44"/>
+                    <color key="backgroundColor" red="0.40000000000000002" green="0.3803921569" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Cdr-bP-hR6"/>
+                    </constraints>
+                    <state key="normal" title="使用电子邮箱注册"/>
+                    <connections>
+                        <action selector="EmailClick:" destination="-1" eventType="touchUpInside" id="PFy-pg-hc8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nDN-n7-6rE" secondAttribute="trailing" constant="60" id="4fw-Za-y2r"/>
+                <constraint firstAttribute="bottom" secondItem="nDN-n7-6rE" secondAttribute="bottom" constant="93" id="7sX-op-2Fy"/>
+                <constraint firstAttribute="bottom" secondItem="vuE-Ac-yZC" secondAttribute="bottom" id="8ob-YR-3wi"/>
+                <constraint firstItem="nDN-n7-6rE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="C3P-TL-JPd"/>
+                <constraint firstItem="vuE-Ac-yZC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JQd-K4-6e7"/>
+                <constraint firstItem="nDN-n7-6rE" firstAttribute="leading" secondItem="MMq-Bg-9Hk" secondAttribute="leading" id="OLU-tL-Cfw"/>
+                <constraint firstItem="nDN-n7-6rE" firstAttribute="top" secondItem="MMq-Bg-9Hk" secondAttribute="bottom" constant="16" id="YZO-rQ-k2t"/>
+                <constraint firstItem="vuE-Ac-yZC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mKX-Uw-fli"/>
+                <constraint firstAttribute="trailing" secondItem="vuE-Ac-yZC" secondAttribute="trailing" id="n44-nq-aAQ"/>
+                <constraint firstItem="nDN-n7-6rE" firstAttribute="trailing" secondItem="MMq-Bg-9Hk" secondAttribute="trailing" id="vqZ-ij-vJm"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

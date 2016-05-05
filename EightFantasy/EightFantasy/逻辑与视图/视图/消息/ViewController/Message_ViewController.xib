@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Message_ViewController">
+            <connections>
+                <outlet property="bottom_co" destination="18y-Le-lvT" id="zyD-Fx-nu1"/>
+                <outlet property="myTableview" destination="fss-ks-kgM" id="vEd-Ki-ji5"/>
+                <outlet property="senderButton" destination="12m-mo-BLW" id="jfa-CE-sTn"/>
+                <outlet property="textContent" destination="aT8-Fx-kcC" id="Wn4-Sq-c5S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fss-ks-kgM" customClass="LITableView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                    <color key="backgroundColor" red="0.92455846071243286" green="0.92466253042221069" blue="0.92449861764907837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WiQ-1b-HdD">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="想说的..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aT8-Fx-kcC">
+                            <rect key="frame" x="10" y="10" width="300" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Loe-gG-h6C"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12m-mo-BLW">
+                            <rect key="frame" x="315" y="10" width="53" height="30"/>
+                            <color key="backgroundColor" red="0.50475835800170898" green="0.44050848484039307" blue="0.83151304721832275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="CeK-PJ-JeP"/>
+                                <constraint firstAttribute="width" constant="53" id="Z5z-YN-yuc"/>
+                            </constraints>
+                            <state key="normal" title="发送">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sender:" destination="-1" eventType="touchUpInside" id="eDk-nV-ezP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="aT8-Fx-kcC" firstAttribute="leading" secondItem="WiQ-1b-HdD" secondAttribute="leading" constant="10" id="7mi-sc-4wo"/>
+                        <constraint firstAttribute="height" constant="50" id="B4U-bv-Moq"/>
+                        <constraint firstAttribute="trailing" secondItem="aT8-Fx-kcC" secondAttribute="trailing" constant="65" id="CIr-g9-Z6E"/>
+                        <constraint firstItem="12m-mo-BLW" firstAttribute="centerY" secondItem="aT8-Fx-kcC" secondAttribute="centerY" id="HXC-CY-IpQ"/>
+                        <constraint firstItem="12m-mo-BLW" firstAttribute="leading" secondItem="aT8-Fx-kcC" secondAttribute="trailing" constant="5" id="VrL-kx-DCs"/>
+                        <constraint firstItem="aT8-Fx-kcC" firstAttribute="centerY" secondItem="WiQ-1b-HdD" secondAttribute="centerY" id="bme-by-Mac"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WiQ-1b-HdD" secondAttribute="bottom" id="18y-Le-lvT"/>
+                <constraint firstItem="fss-ks-kgM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BpS-zW-kox"/>
+                <constraint firstItem="WiQ-1b-HdD" firstAttribute="top" secondItem="fss-ks-kgM" secondAttribute="bottom" id="T1l-zF-NNW"/>
+                <constraint firstAttribute="trailing" secondItem="fss-ks-kgM" secondAttribute="trailing" id="Tqj-pK-dZ0"/>
+                <constraint firstItem="WiQ-1b-HdD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="a7O-TV-f8c"/>
+                <constraint firstItem="fss-ks-kgM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eaw-KF-oZ0"/>
+                <constraint firstAttribute="trailing" secondItem="WiQ-1b-HdD" secondAttribute="trailing" id="tAk-cl-wP0"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

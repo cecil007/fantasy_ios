@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="EmailView" destination="jeN-cx-7jo" id="PNr-Nd-Nph"/>
+                <outlet property="LoginBtn" destination="Jao-rK-MsX" id="9MV-4N-BBZ"/>
+                <outlet property="PasswordView" destination="uga-Zh-tRe" id="KQ1-pr-uAJ"/>
+                <outlet property="passwordText" destination="gX4-WK-HMc" id="ye0-oX-5U5"/>
+                <outlet property="usernameText" destination="8nC-hf-MxX" id="YuF-S3-ptJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jeN-cx-7jo">
+                    <rect key="frame" x="15" y="79" width="345" height="44"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="tJt-cq-xJa">
+                            <rect key="frame" x="13" y="13" width="17" height="17"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NDg-el-7MO">
+                            <rect key="frame" x="38" y="10" width="1" height="24"/>
+                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入邮箱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8nC-hf-MxX">
+                            <rect key="frame" x="47" y="7" width="290" height="30"/>
+                            <color key="textColor" red="0.60547524690628052" green="0.60556268692016602" blue="0.60544770956039429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="lKr-jt-ywp"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ez2-D4-XcJ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uga-Zh-tRe">
+                    <rect key="frame" x="15" y="133" width="345" height="44"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="password.png" translatesAutoresizingMaskIntoConstraints="NO" id="4eo-Ec-75l">
+                            <rect key="frame" x="13" y="13" width="17" height="17"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7s-Rr-IYL">
+                            <rect key="frame" x="38" y="10" width="1" height="24"/>
+                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gX4-WK-HMc">
+                            <rect key="frame" x="47" y="7" width="290" height="30"/>
+                            <color key="textColor" red="0.66422420740127563" green="0.66424006223678589" blue="0.66423153877258301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="zm8-Hc-Ech"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="d2q-Yt-bYL"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jao-rK-MsX">
+                    <rect key="frame" x="15" y="206" width="345" height="44"/>
+                    <color key="backgroundColor" red="0.65098039215686276" green="0.61176470588235299" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="OeO-PK-f0O"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="登录"/>
+                    <connections>
+                        <action selector="LoginClick:" destination="-1" eventType="touchUpInside" id="d8J-G3-ft4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdJ-ea-TGJ">
+                    <rect key="frame" x="297" y="268" width="58" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IFq-yj-IUl"/>
+                        <constraint firstAttribute="width" constant="58" id="aFD-1P-YsO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="忘记密码">
+                        <color key="titleColor" red="0.71447950601577759" green="0.6801484227180481" blue="0.89929574728012085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ForgetClick:" destination="-1" eventType="touchUpInside" id="tdx-Ei-g9Z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uga-Zh-tRe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="6er-Jq-qyq"/>
+                <constraint firstItem="jeN-cx-7jo" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="79" id="EbQ-K4-yj7"/>
+                <constraint firstItem="Jao-rK-MsX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Gky-Wr-lpP"/>
+                <constraint firstAttribute="trailing" secondItem="jeN-cx-7jo" secondAttribute="trailing" constant="15" id="Mw0-l4-q7o"/>
+                <constraint firstItem="rdJ-ea-TGJ" firstAttribute="top" secondItem="Jao-rK-MsX" secondAttribute="bottom" constant="18" id="Nzt-7B-Mwq"/>
+                <constraint firstItem="jeN-cx-7jo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="WSp-cT-xYZ"/>
+                <constraint firstAttribute="trailing" secondItem="rdJ-ea-TGJ" secondAttribute="trailing" constant="20" id="X1z-ci-0QT"/>
+                <constraint firstAttribute="trailing" secondItem="uga-Zh-tRe" secondAttribute="trailing" constant="15" id="eJq-e4-g9h"/>
+                <constraint firstItem="Jao-rK-MsX" firstAttribute="top" secondItem="uga-Zh-tRe" secondAttribute="bottom" constant="29" id="gYE-IY-d6d"/>
+                <constraint firstItem="uga-Zh-tRe" firstAttribute="top" secondItem="jeN-cx-7jo" secondAttribute="bottom" constant="10" id="mS6-85-biL"/>
+                <constraint firstAttribute="trailing" secondItem="Jao-rK-MsX" secondAttribute="trailing" constant="15" id="yLq-vu-lXi"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="email.png" width="17" height="17"/>
+        <image name="password.png" width="17" height="17"/>
+    </resources>
+</document>

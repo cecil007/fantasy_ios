@@ -1,0 +1,26 @@
+//
+//  EightFantasy-PrefixHeader.pch
+//  EightFantasy
+//
+//  Created by 陈耀文 on 16/4/9.
+//  Copyright © 2016年 com.libingting. All rights reserved.
+//
+
+#ifndef EightFantasy_PrefixHeader_pch
+#define EightFantasy_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "BaseViewController.h"
+#import "LIKITHeader.h"
+#import "AppNetWork.h"
+#import "MJRefresh.h"
+#import "OMGToast.h"
+#import "Control_Object.h"
+#import "MobClick.h"
+
+#endif /* EightFantasy_PrefixHeader_pch */
+
+
+#endif

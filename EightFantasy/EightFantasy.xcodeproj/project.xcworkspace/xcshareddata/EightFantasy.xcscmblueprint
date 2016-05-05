@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d459e759-0715-4f47-b1d3-ddeb8891bc03++8162",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d459e759-0715-4f47-b1d3-ddeb8891bc03++8162" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d459e759-0715-4f47-b1d3-ddeb8891bc03++8162" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "012D523D-1BAE-459B-ADD8-9C258074987E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d459e759-0715-4f47-b1d3-ddeb8891bc03++8162" : "%E5%85%AB%E5%BA%A6%E5%B9%BB%E6%83%B3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EightFantasy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EightFantasy\/EightFantasy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/ios_app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d459e759-0715-4f47-b1d3-ddeb8891bc03++8162"
+    }
+  ]
+}

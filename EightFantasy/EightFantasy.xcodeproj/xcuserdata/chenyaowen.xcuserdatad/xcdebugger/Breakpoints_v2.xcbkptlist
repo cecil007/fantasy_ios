@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x53cb;&#x76df;/&#x53cb;&#x76df;&#x5206;&#x4eab;API/&#x53cb;&#x76df;&#x5206;&#x4eab;&#x5c01;&#x88c5;/UMShare_Package.m"
+            timestampString = "481703005.24553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-didFinishGetUMSocialDataInViewController:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x53cb;&#x76df;/&#x53cb;&#x76df;&#x5206;&#x4eab;API/&#x53cb;&#x76df;&#x5206;&#x4eab;&#x5c01;&#x88c5;/UMShare_Package.m"
+            timestampString = "481703005.24553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-singlePlatfromShare"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x53cb;&#x76df;/&#x53cb;&#x76df;&#x5206;&#x4eab;API/&#x53cb;&#x76df;&#x5206;&#x4eab;&#x5c01;&#x88c5;/UMShare_Package.m"
+            timestampString = "481703005.24553"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-didSelectSocialPlatform:withSocialData:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x4e16;&#x754c;/ViewController/Word_ViewController.m"
+            timestampString = "482986492.206831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:data:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x6211;&#x7684;/View/HeadView.m"
+            timestampString = "482333736.368577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-MyClick:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x5199;&#x68a6;/ViewController/WriteDream_ViewController.m"
+            timestampString = "482766889.85285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "-writeContentInput"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x8bbe;&#x7f6e;/FeedBack_ViewController.m"
+            timestampString = "482552295.558109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-rightClick"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482596800.661366"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "+networkHeaderImageUpdata:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482766909.973605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "+networkHeaderImageUpdata:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482928065.693147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "746"
+            endingLineNumber = "746"
+            landmarkName = "+networkUrl:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482928209.4189"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "769"
+            endingLineNumber = "769"
+            landmarkName = "+networkUrl:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482928773.385987"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "647"
+            endingLineNumber = "647"
+            landmarkName = "+networkMessageList:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482929189.37234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "699"
+            endingLineNumber = "699"
+            landmarkName = "+networkSendMessage:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x4e16;&#x754c;/View/Word_ViewControllerTableViewCell.m"
+            timestampString = "482985358.506878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-showMore:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482929545.830664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "344"
+            endingLineNumber = "344"
+            landmarkName = "+networkUpdataMessageId:title:content:type:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482929557.241323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
+            landmarkName = "+networkUpdataMessageId:title:content:type:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482929573.735296"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "+networkUpdataMessageId:title:content:type:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482929589.05399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
+            landmarkName = "+networkUpdataMessageId:title:content:type:finish:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[AppNetWork networkUpdataMessageId:title:content:type:finish:]"
+                  moduleName = "EightFantasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyaowen/Desktop/%E5%A4%96%E5%8C%85/%E5%85%AB%E5%BA%A6%E5%B9%BB%E6%83%B3/EightFantasy/EightFantasy/%E9%80%BB%E8%BE%91%E4%B8%8E%E8%A7%86%E5%9B%BE/%E9%80%BB%E8%BE%91/AppNetWork.m"
+                  timestampString = "484064496.53507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "343"
+                  endingLineNumber = "343"
+                  offsetFromSymbolStart = "605">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__63+[AppNetWork networkUpdataMessageId:title:content:type:finish:]_block_invoke"
+                  moduleName = "EightFantasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyaowen/Desktop/%E5%A4%96%E5%8C%85/%E5%85%AB%E5%BA%A6%E5%B9%BB%E6%83%B3/EightFantasy/EightFantasy/%E9%80%BB%E8%BE%91%E4%B8%8E%E8%A7%86%E5%9B%BE/%E9%80%BB%E8%BE%91/AppNetWork.m"
+                  timestampString = "484064496.535316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "344"
+                  endingLineNumber = "344"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x6211;&#x7684;/View/WordMe_ViewControllerTableViewCell.m"
+            timestampString = "482931433.989225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-shareMessage:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482931524.877759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "548"
+            endingLineNumber = "548"
+            landmarkName = "+networkToReportDreamId:type:finish:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[AppNetWork networkToReportDreamId:type:finish:]"
+                  moduleName = "EightFantasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyaowen/Desktop/%E5%A4%96%E5%8C%85/%E5%85%AB%E5%BA%A6%E5%B9%BB%E6%83%B3/EightFantasy/EightFantasy/%E9%80%BB%E8%BE%91%E4%B8%8E%E8%A7%86%E5%9B%BE/%E9%80%BB%E8%BE%91/AppNetWork.m"
+                  timestampString = "484064496.537573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "548"
+                  endingLineNumber = "548"
+                  offsetFromSymbolStart = "909">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49+[AppNetWork networkToReportDreamId:type:finish:]_block_invoke"
+                  moduleName = "EightFantasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyaowen/Desktop/%E5%A4%96%E5%8C%85/%E5%85%AB%E5%BA%A6%E5%B9%BB%E6%83%B3/EightFantasy/EightFantasy/%E9%80%BB%E8%BE%91%E4%B8%8E%E8%A7%86%E5%9B%BE/%E9%80%BB%E8%BE%91/AppNetWork.m"
+                  timestampString = "484064496.537769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "549"
+                  endingLineNumber = "549"
+                  offsetFromSymbolStart = "121">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482931539.39791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
+            landmarkName = "+networkToReportDreamId:type:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482932146.554281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "805"
+            endingLineNumber = "805"
+            landmarkName = "+paramsBase:cmdid:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "482985086.487576"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "558"
+            endingLineNumber = "558"
+            landmarkName = "+networkToReportDreamId:type:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x89c6;&#x56fe;/&#x8bbe;&#x7f6e;/FuWu_ViewController.m"
+            timestampString = "483202934.297827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/AppDelegate.m"
+            timestampString = "483417526.934005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-didReceiveWeiboRequest:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/AppDelegate.m"
+            timestampString = "483417526.934005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "-didReceiveWeiboResponse:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/AppDelegate.m"
+            timestampString = "483417526.934005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "-didReceiveWeiboResponse:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x767b;&#x5f55;&#x4e0e;&#x6ce8;&#x518c;/StartPage_ViewController.m"
+            timestampString = "483417576.321342"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-twitterSplash"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "484064527.611007"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "+networkUserInfoUid:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EightFantasy/&#x903b;&#x8f91;&#x4e0e;&#x89c6;&#x56fe;/&#x903b;&#x8f91;/AppNetWork.m"
+            timestampString = "484064530.175341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "+networkUserInfoUid:finish:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

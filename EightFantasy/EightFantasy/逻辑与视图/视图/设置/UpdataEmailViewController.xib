@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpdataEmailViewController">
+            <connections>
+                <outlet property="emailField" destination="1h3-R6-rqc" id="R20-Iv-mdY"/>
+                <outlet property="textFeild" destination="9kL-Zl-nMT" id="WWy-eb-FIm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1h3-R6-rqc">
+                    <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="icb-Y7-2dr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.66418391466140747" green="0.66426032781600952" blue="0.66413992643356323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xyX-Gz-PwR">
+                    <rect key="frame" x="0.0" y="108" width="320" height="40"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="新邮箱" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9kL-Zl-nMT">
+                            <rect key="frame" x="15" y="0.0" width="290" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="KuE-hX-TlU"/>
+                            </constraints>
+                            <color key="textColor" red="0.66418391466140747" green="0.66426032781600952" blue="0.66413992643356323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9kL-Zl-nMT" secondAttribute="trailing" constant="15" id="PAI-v7-mjL"/>
+                        <constraint firstItem="9kL-Zl-nMT" firstAttribute="leading" secondItem="xyX-Gz-PwR" secondAttribute="leading" constant="15" id="r5T-ka-1QE"/>
+                        <constraint firstItem="9kL-Zl-nMT" firstAttribute="centerY" secondItem="xyX-Gz-PwR" secondAttribute="centerY" id="yxt-ZC-1Ob"/>
+                        <constraint firstAttribute="height" constant="40" id="zgQ-LL-Qgn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xyX-Gz-PwR" secondAttribute="trailing" id="0aY-Tz-CfM"/>
+                <constraint firstItem="1h3-R6-rqc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FiV-6b-8VD"/>
+                <constraint firstItem="xyX-Gz-PwR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hbW-PW-a8T"/>
+                <constraint firstItem="1h3-R6-rqc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="i1D-za-tOo"/>
+                <constraint firstItem="xyX-Gz-PwR" firstAttribute="top" secondItem="1h3-R6-rqc" secondAttribute="bottom" id="qV2-dx-L6y"/>
+                <constraint firstAttribute="trailing" secondItem="1h3-R6-rqc" secondAttribute="trailing" id="w8s-ZM-4m7"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

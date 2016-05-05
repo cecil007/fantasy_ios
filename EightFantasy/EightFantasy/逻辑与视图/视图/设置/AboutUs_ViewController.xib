@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUs_ViewController">
+            <connections>
+                <outlet property="label1_layout_top" destination="mh4-d6-YkM" id="DaE-Og-vf6"/>
+                <outlet property="label2_layout_top" destination="q42-kN-Lk3" id="TcI-3Y-Hs6"/>
+                <outlet property="messageLabel1" destination="YBL-fi-XeD" id="FTh-Ab-xvc"/>
+                <outlet property="messageLabel2" destination="7cR-7F-yls" id="qCc-ef-86C"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about.png" translatesAutoresizingMaskIntoConstraints="NO" id="yIX-vh-PqK">
+                    <rect key="frame" x="155" y="79" width="65" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="Exg-9I-NOE"/>
+                        <constraint firstAttribute="width" constant="65" id="JwZ-y4-W7B"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiZ-qd-gbJ">
+                    <rect key="frame" x="171" y="155" width="32" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="81" id="6oE-88-eVa"/>
+                        <constraint firstAttribute="height" constant="18" id="NUn-zM-p5b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6oE-88-eVa"/>
+                            <exclude reference="NUn-zM-p5b"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBL-fi-XeD" customClass="LIRichTextLabel">
+                    <rect key="frame" x="168" y="190" width="39.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.26049977540969849" green="0.26053327322006226" blue="0.26048046350479126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cR-7F-yls" customClass="LIRichTextLabel">
+                    <rect key="frame" x="167.5" y="235.5" width="39.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.26049977540969849" green="0.26053327322006226" blue="0.26048046350479126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wag-Xa-qaF">
+                    <rect key="frame" x="26" y="621" width="323" height="47"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="323" id="53f-kF-v3V"/>
+                        <constraint firstAttribute="height" constant="47" id="yxp-ux-hz9"/>
+                    </constraints>
+                    <string key="text">八度幻想    版权所有
+Copyright © 2016 8fantasy All Right Reserved</string>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyO-Ch-yK4">
+                    <rect key="frame" x="104" y="602" width="169" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="44z-Sk-dey"/>
+                        <constraint firstAttribute="width" constant="169" id="rG0-sD-q0s"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="《八度幻想软件许可及服务协议》">
+                        <color key="titleColor" red="0.41960784309999999" green="0.35294117650000001" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="FuWuClick:" destination="-1" eventType="touchUpInside" id="ONz-fl-oiX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OiZ-qd-gbJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FtW-no-iD9"/>
+                <constraint firstItem="OiZ-qd-gbJ" firstAttribute="top" secondItem="yIX-vh-PqK" secondAttribute="bottom" constant="11" id="PGR-Gb-msq"/>
+                <constraint firstAttribute="bottom" secondItem="Wag-Xa-qaF" secondAttribute="bottom" constant="-1" id="Wd0-wP-RY6"/>
+                <constraint firstItem="Wag-Xa-qaF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Z48-Rh-1mt"/>
+                <constraint firstItem="YBL-fi-XeD" firstAttribute="centerX" secondItem="OiZ-qd-gbJ" secondAttribute="centerX" id="ZeW-LY-v01"/>
+                <constraint firstItem="7cR-7F-yls" firstAttribute="centerX" secondItem="YBL-fi-XeD" secondAttribute="centerX" id="f2j-Wa-biJ"/>
+                <constraint firstItem="yIX-vh-PqK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fuy-De-UB6"/>
+                <constraint firstItem="yIX-vh-PqK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="79" id="hPx-IV-NjZ"/>
+                <constraint firstItem="YBL-fi-XeD" firstAttribute="top" secondItem="OiZ-qd-gbJ" secondAttribute="bottom" constant="17" id="mh4-d6-YkM"/>
+                <constraint firstItem="7cR-7F-yls" firstAttribute="top" secondItem="YBL-fi-XeD" secondAttribute="bottom" constant="26" id="q42-kN-Lk3"/>
+                <constraint firstItem="qyO-Ch-yK4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="1" id="vgb-0c-pAZ"/>
+                <constraint firstAttribute="bottom" secondItem="qyO-Ch-yK4" secondAttribute="bottom" constant="35" id="zwY-c2-Mcu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="260.5" y="176.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about.png" width="65" height="65"/>
+    </resources>
+</document>
